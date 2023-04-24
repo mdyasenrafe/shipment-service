@@ -1,9 +1,12 @@
 import React from "react";
+import Layout from "../component/layout/Layout";
 
 export default function Shiping() {
   return (
-    <div>
-      <h1>Shiping</h1>
-    </div>
+    <Layout>
+      <div>
+        <h1>Shiping</h1>
+      </div>
+    </Layout>
   );
 }
