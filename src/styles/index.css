@@ -23,7 +23,7 @@ body {
 
 @layer components {
   .btn {
-    @apply flex items-center h-[48px] rounded-[12.44px];
+    @apply flex items-center h-[48px] rounded-[12.44px] text-[19px] font-semibold;
   }
 }
 .bg-primary {
@@ -45,4 +45,30 @@ body {
 }
 input:focus-visible {
   outline: none !important;
+}
+
+.shiping_container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+}
+
+@media (min-width: 1400px) {
+  .shiping_container {
+    max-width: 1200px !important;
+  }
+}
+
+.upmenu_shadow {
+  box-shadow: 14px 216px 86px rgba(21, 31, 72, 0.01),
+    8px 121px 73px rgba(21, 31, 72, 0.05), 3px 54px 54px rgba(21, 31, 72, 0.09),
+    1px 13px 30px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+}
+.result_shadow {
+  box-shadow: 39px 216px 88px rgba(0, 0, 0, 0.01),
+    22px 122px 74px rgba(0, 0, 0, 0.05), 10px 54px 55px rgba(0, 0, 0, 0.09),
+    2px 14px 30px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 18px;
 }

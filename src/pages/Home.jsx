@@ -55,7 +55,7 @@ export default function () {
         </div>
         <div className="input_shadow rounded-[14px] bg-white  py-[30px] px-[24px] md:flex items-center mt-[100px]">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 w-[96%]">
-            <div className="flex item-center">
+            <div className="flex items-center">
               <GrLocation className="w-[24px] h-[24px]" color="#868686" />
               <input
                 type="text"
@@ -63,7 +63,7 @@ export default function () {
                 className="text-[16px] text-[#868686] ml-[16px] w-full"
               />
             </div>
-            <div className="flex item-center">
+            <div className="flex items-center">
               <GrLocation className="w-[24px] h-[24px]" color="#868686" />
               <input
                 type="text"
@@ -71,7 +71,7 @@ export default function () {
                 className="text-[16px] text-[#868686] ml-[16px] w-full"
               />
             </div>
-            <div className="flex item-center">
+            <div className="flex items-center">
               <GoCalendar
                 className="w-[24px] h-[24px] mr-[16px]"
                 color="#868686"
@@ -83,7 +83,7 @@ export default function () {
                 className="text-[16px] text-[#868686] w-full"
               />
             </div>
-            <div className="flex item-center">
+            <div className="flex items-center">
               <img
                 src="https://i.ibb.co/tQGR9Nj/ship.png"
                 alt=""
